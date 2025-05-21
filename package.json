@@ -1,0 +1,33 @@
+{
+  "name": "cached-fetch",
+  "version": "0.0.1",
+  "description": "A wrapper around fetch() allowing you to cache all your requests and adding the ability to batch multiple requests.",
+  "main": "lib/index.js",
+  "browser": "dist/favicon-fetch.min.js",
+  "unpkg": "dist/favicon-fetch.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cachehorse/cached-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "api",
+    "cache",
+    "batched",
+    "http"
+  ],
+  "author": "fiiv <git@fiiv.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cachehorse/cached-fetch/issues"
+  },
+  "homepage": "https://github.com/cachehorse/cached-fetch#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^2.79.2"
+  }
+}
