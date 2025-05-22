@@ -9,14 +9,12 @@ const { get } = CachedFetch({ apiKey: "122", fetch: fakeFetch });
 
 const runner = async (name, { input, output }) => {
   try {
-    console.log(`Running: '${name}':\n`);
-
     const result = await get(input);
     assert.deepEqual(result, output);
 
-    console.log("Passed!\n");
+    console.log(`✅ ${name}`);
   } catch (error) {
-    console.error(error.message);
+    console.log(`❌ ${name}`);
   }
 };
 
