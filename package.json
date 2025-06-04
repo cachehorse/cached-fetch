@@ -1,7 +1,6 @@
 {
-  "name": "cached-fetch",
-  "owner": "@cachehorse",
-  "version": "0.0.1",
+  "name": "@cachehorse/cached-fetch",
+  "version": "1.0.0",
   "description": "A wrapper around fetch() allowing you to cache all your requests and adding the ability to batch multiple requests.",
   "main": "lib/index.js",
   "browser": "dist/cached-fetch-fetch.min.js",
@@ -26,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/cachehorse/cached-fetch/issues"
   },
-  "homepage": "https://github.com/cachehorse/cached-fetch#readme",
+  "homepage": "https://cache.horse",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^2.79.2"
