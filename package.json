@@ -1,5 +1,6 @@
 {
   "name": "cached-fetch",
+  "owner": "@cachehorse",
   "version": "0.0.1",
   "description": "A wrapper around fetch() allowing you to cache all your requests and adding the ability to batch multiple requests.",
   "main": "lib/index.js",
